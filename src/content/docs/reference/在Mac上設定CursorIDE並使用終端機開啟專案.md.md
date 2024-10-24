@@ -1,10 +1,8 @@
 ---
 title: 在 Mac 上設定 Cursor IDE：在終端機使用 Cursor 開啟專案
 description: 在 Mac 上設定 Cursor IDE：在終端機使用 Cursor 開啟專案
-date: 2024-03-15
+lastUpdated: 2024-10-21
 ---
-
-# 在 Mac 上設定 Cursor IDE：在終端機使用 Cursor 開啟專案
 
 ## 如何將「Cursor」應用程式加入 `PATH`，並透過終端機開啟
 
