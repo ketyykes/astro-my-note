@@ -6,7 +6,10 @@ import starlight from "@astrojs/starlight";
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: "My Notes",
+			title: "水土曜來了筆記",
+			logo: {
+				src: "./src/assets/wed_sat_icon.svg",
+			},
 			favicon: "/favicon.png",
 			social: {
 				github: "https://github.com/withastro/starlight",
@@ -14,10 +17,7 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: "Guides",
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: "Welcome", slug: "guides/welcome" },
-					],
+					items: [{ label: "Welcome", slug: "guides/welcome" }],
 				},
 				{
 					label: "Reference",
