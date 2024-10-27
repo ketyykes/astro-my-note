@@ -1,36 +1,36 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: 歡迎來到我的筆記分享天地
+description: 探索各種有趣的技術筆記和學習資源。
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: 在這裡，你可以找到各種實用的技術筆記和學習心得！
   image:
-    file: ../../assets/houston.webp
+    file: ../../assets/wed_sat_icon.svg
   actions:
-    - text:  Guide
-      link: /guides/example/
+    - text: 開始探索
+      link: /guides/welcome/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
+    - text: 關於本站
+      link: /guides/welcome/
+      icon: information
       variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## 網站內容
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="學習筆記" icon="seti:notebook">
+		學習各種技術的筆記。
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="工具推薦" icon="puzzle">
+		工具推薦，幫助你更快速地掌握新技能。
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
+	<Card title="實作筆記" icon="laptop">
+		實作各種技術的筆記。
 	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="文件翻譯" icon="translate">
+		將技術文件翻譯成繁體中文。
 	</Card>
 </CardGrid>
