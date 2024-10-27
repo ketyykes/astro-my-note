@@ -2,8 +2,17 @@
 title: 在 Mac 上設定 Cursor IDE：在終端機使用 Cursor 開啟專案
 description: 在 Mac 上設定 Cursor IDE：在終端機使用 Cursor 開啟專案
 lastUpdated: 2024-10-21
+tags: [mac]
 ---
 
+本文介紹了如何在 Mac 上設定 Cursor IDE，使其可以通過終端機輕鬆開啟專案。主要內容包括：
+
+1. 將 Cursor 應用程式加入系統 PATH
+2. 設定步驟的詳細說明
+3. 如何在終端機中使用 Cursor 開啟專案
+4. 相關注意事項
+
+通過這些設定，用戶可以在任何終端機視窗中使用 `cursor` 指令直接開啟 Cursor IDE，大大提高了工作效率。
 ## 如何將「Cursor」應用程式加入 `PATH`，並透過終端機開啟
 
 在使用終端機時，如果想要直接使用 `Cursor` 應用程式的指令，可以透過將它的路徑加入到系統的 `PATH` 中來達成。這樣的設定讓你可以在任何終端機視窗中直接使用 `cursor` 指令開啟 Cursor。以下將介紹如何設定：
@@ -56,7 +65,7 @@ lastUpdated: 2024-10-21
 
    這樣就會在 Cursor 中開啟該資料夾，方便你直接在專案中進行編輯。
 
-### 注意事項
+## 注意事項
 
 - 請確保 `Cursor` 的實際路徑與上述假設的路徑一致。如果實際路徑不同，請替換 `/Applications/Cursor.app/Contents/Resources/app/bin` 為你自己環境中的正確路徑。
 - 若使用其他 shell（例如 `bash` 或 `fish`），可能需要調整為相應的設定檔案（如 `~/.bash_profile` 或 `~/.config/fish/config.fish`）。
