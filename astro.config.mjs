@@ -6,7 +6,8 @@ import starlight from "@astrojs/starlight";
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: "My Docs",
+			title: "My Notes",
+			favicon: "/favicon.png",
 			social: {
 				github: "https://github.com/withastro/starlight",
 			},
@@ -15,7 +16,7 @@ export default defineConfig({
 					label: "Guides",
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: "Example Guide", slug: "guides/welcome" },
+						{ label: "Welcome", slug: "guides/welcome" },
 					],
 				},
 				{
