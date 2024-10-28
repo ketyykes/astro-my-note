@@ -24,7 +24,7 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: "Guides",
-					items: [{ label: "Welcome", slug: "guides/welcome" }],
+					autogenerate: { directory: "guide" },
 				},
 				{
 					label: "Reference",
