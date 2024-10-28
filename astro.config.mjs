@@ -23,8 +23,7 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: "Guides",
-					autogenerate: { directory: "guide" },
+					slug: "guide/welcome",
 				},
 				{
 					label: "Reference",
