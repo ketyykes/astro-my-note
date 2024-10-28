@@ -5,23 +5,19 @@ lastUpdated: 2024-10-27
 tags: [backend]
 ---
 
-
-# 
-
 ## 前言
 
 對於使用 Vercel 部署應用程式的開發者來說，設置自訂網域能大幅提升專案的專業性與品牌辨識度。本教學將一步步引導您如何在 Vercel 中添加、配置並驗證自訂網域，包括使用根域名、子網域與萬用字元網域的方式，以及通過 Nameserver 進行設定。無論您是要建立全新的自訂網域，或從其他 DNS 提供商移轉，本文將為您提供完整的操作說明。
 
 ## 目錄
-- [](#)
-  - [前言](#前言)
-  - [目錄](#目錄)
-  - [新增與設定網域](#新增與設定網域)
-  - [根域名 (Apex Domain)](#根域名-apex-domain)
-  - [子網域 (Subdomain)](#子網域-subdomain)
-  - [Vercel Nameservers](#vercel-nameservers)
-  - [驗證網域存取權限](#驗證網域存取權限)
-        - [參考資料](#參考資料)
+- [前言](#前言)
+- [目錄](#目錄)
+- [新增與設定網域](#新增與設定網域)
+- [根域名 (Apex Domain)](#根域名-apex-domain)
+- [子網域 (Subdomain)](#子網域-subdomain)
+- [Vercel Nameservers](#vercel-nameservers)
+- [驗證網域存取權限](#驗證網域存取權限)
+      - [參考資料](#參考資料)
 
 ---
 
