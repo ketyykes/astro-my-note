@@ -7,6 +7,13 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: "水土曜來了筆記",
+			defaultLocale: "zh-Hant",
+			locales: {
+				"zh-Hant": {
+					label: "繁體中文",
+					lang: "zh-Hant",
+				},
+			},
 			logo: {
 				src: "./src/assets/wed_sat_icon.svg",
 			},
@@ -16,8 +23,7 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: "Guides",
-					items: [{ label: "Welcome", slug: "guides/welcome" }],
+					slug: "guide/welcome",
 				},
 				{
 					label: "Reference",
